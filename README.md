@@ -1,4 +1,5 @@
 # Web-API-Challenge-Personal-Blog-UCI
+Deployed: https://jasondang4.github.io/Web-API-Challenge-Personal-Blog-UCI/
 
 # Description
 In this challenge I was tasked with making a personal Blog website from scratch using only idex.html, styles.css, and script.js. Here you will be presented with a fully fucntioning website that allows you to create a blog with the content of username, title, and content. Furthermore there is a button that allows you to toggle between light and dark mode. Addtionally, all blogs that are created will be saved and then presented in a different page called "Blog Posts" where you can view all previously created Blogs with the entered content. There is alos a "back" button that will take you back to the main page to enter more blogs.
