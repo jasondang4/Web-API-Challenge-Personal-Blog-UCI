@@ -29,3 +29,7 @@ WHEN I view localStorage,
 THEN I am presented with a JSON array of blog post objects, each including the post author's username, title of the post, and post's content.
 WHEN I take a closer look at a single blog entry in the list,
 THEN I can see the title, the content, and the author of the post
+<img width="1468" alt="Screenshot 2024-02-28 at 8 49 05 PM" src="https://github.com/jasondang4/Web-API-Challenge-Personal-Blog-UCI/assets/159833505/a4de5b7c-d0e6-4a88-a116-d1369f919f1a">
+<img width="1470" alt="Screenshot 2024-02-28 at 8 49 28 PM" src="https://github.com/jasondang4/Web-API-Challenge-Personal-Blog-UCI/assets/159833505/43dff53e-7fd3-4aa9-8b47-a0848b4954ba">
+
+
