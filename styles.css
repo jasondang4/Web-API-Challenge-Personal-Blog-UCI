@@ -1,0 +1,104 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure relative positioning for absolute children */
+}
+
+/* Form styles */
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-button,
+.back-button,
+.toggle-mode-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.submit-button:hover,
+.back-button:hover,
+.toggle-mode-button:hover {
+    background-color: #0056b3;
+}
+
+/* Blog post styles */
+.blog-post {
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.blog-post:last-child {
+    border-bottom: none;
+}
+
+.blog-post h2 {
+    color: #333;
+}
+
+.blog-post p {
+    margin: 10px 0;
+}
+
+/* Back button */
+.back-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Toggle mode button */
+.toggle-mode-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/* Light mode styles */
+.light-mode {
+    /* Define styles for light mode */
+    background-color: #ffffff;
+    color: #333333;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    /* Define styles for dark mode */
+    background-color: #333333;
+    color: #ffffff;
+}
